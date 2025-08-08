@@ -4,7 +4,7 @@ import os
 from binance.client import Client
 from binance.enums import *
 
-# ⚠️ PON AQUÍ TUS CLAVES DE BINANCE (usa testnet=True para pruebas)
+# ⚠️ WPIBYswfCdoxElwnMvBmBNvy0Rkatw0ukFR7QbFrDjnDxOO6sKDqKYCmDROshmxz (usa testnet=True para pruebas)
 API_KEY = os.getenv("BINANCE_API_KEY", "TU_API_KEY")
 API_SECRET = os.getenv("BINANCE_API_SECRET", "TU_API_SECRET")
 client = Client(API_KEY, API_SECRET, testnet=True)
