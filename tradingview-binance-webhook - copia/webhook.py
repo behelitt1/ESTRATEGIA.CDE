@@ -4,9 +4,9 @@ import os
 from binance.client import Client
 from binance.enums import *
 
-# ⚠️ WPIBYswfCdoxElwnMvBmBNvy0Rkatw0ukFR7QbFrDjnDxOO6sKDqKYCmDROshmxz (usa testnet=True para pruebas)
-API_KEY = os.getenv("BINANCE_API_KEY", "TU_API_KEY")
-API_SECRET = os.getenv("BINANCE_API_SECRET", "TU_API_SECRET")
+# ⚠️ PON AQUI TUS CLAVES DE BINANCE (usa testnet=True para pruebas)
+API_KEY = os.getenv("BINANCE_API_KEY", "7BvxxiOEit48Jk17Yk3vwgtj9fi73FLLyklAMxYHgQ0otsZDJLDD6krbmHDMzWiB")
+API_SECRET = os.getenv("BINANCE_API_SECRET", "0b8oEUS3DmcGEcY618S7Sagvpg4LFqH1XeMCOx0GZAxY6xgrKTeACdkcojV3pPPB")
 client = Client(API_KEY, API_SECRET, testnet=True)
 
 app = Flask(__name__)
